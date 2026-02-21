@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: #0a0a0a;
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#info-panel {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 800px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+h1 { 
+    margin: 0 0 10px 0; 
+    font-size: 22px; 
+    letter-spacing: 2px;
+    color: #ffffff; 
+}
+
+p { 
+    margin: 5px 0; 
+    font-size: 14px; 
+    color: #aaaaaa; 
+}
+
+#game-container {
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    border: 2px solid #222;
+}
+
+canvas {
+    display: block;
+}
